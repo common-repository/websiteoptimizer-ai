@@ -1,0 +1,69 @@
+.woai-admin-wrap {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.woai-admin-header {
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+
+.woai-form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.woai-form-group input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.woai-form-group input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.woai-submit-button {
+    background-color: #0073aa;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.woai-submit-button:hover {
+    background-color: #005177;
+}
+
+.woai-admin-instructions {
+    padding: 8px 12px;
+    border-radius: 12px;
+    background: #f8f8f8;
+}
+
+.woai-dashboard-button {}
+
+.woai-dashboard-button .button {
+    padding: 8px 16px;
+    height: auto;
+    line-height: 1.4;
+}
+
+.woai-site-id-group input[type="text"] {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.woai-site-id-group a {
+    white-space: nowrap;
+}
